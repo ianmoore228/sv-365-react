@@ -1,0 +1,130 @@
+.create-bar__wrapper {
+    text-align: center;
+    margin: 100px 50px;
+}
+
+.create-bar__container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.create-bar__background {
+    height: 820px;
+    background: linear-gradient(180deg, rgba(113, 23, 202, 0.774) 6%, rgba(130, 38, 223, 0.561) 50%, rgba(192, 189, 196, 0.007) 99%);
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    border-radius: 80px;
+}
+
+.create-bar__title {
+    padding-top: 50px;
+    font-size: 45px;
+}
+
+.create-bar__subtitle {
+    font-size: 20px;
+    margin: 20px 0;
+    line-height: 29px;
+}
+
+.create-bar__content-card-wrapper {
+    display: flex;
+}
+
+.create-bar__content-card-description {
+    margin-left: 50px;
+    width: 35%;
+    display: flex;
+    align-items: center;
+}
+
+.create-bar__content-left {
+    max-width: 1300px;
+    min-width: 40%;
+    width: 60%;
+}
+
+.create-bar__content-right {
+    width: 40%;
+    margin-left: -210px;
+}
+
+.create-bar__image_left {
+    width: 80%;
+
+}
+
+.create-bar__content-card {
+    height: 200px;
+    width: 45%;
+    border-radius: 26px;
+    background: linear-gradient(180deg, #1F4CEE 4.36%, rgba(31, 76, 238, 0.28) 99.89%);
+    padding: 15px 20px;
+}
+
+.create-bar__image_left_7 {
+    max-width: 500px;
+}
+
+.create-bar__content-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.create-bar__card-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.create-bar__card-item {
+    margin: 13px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3px;
+    font-size: 16px;
+}
+
+.create-bar__description {
+    font-size: 22px;
+    line-height: 29px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.create-bar__description span {
+    font-weight: bold;
+}
+
+.create-bar__bottom-image-info {
+    position: absolute;
+}
+
+.create-bar__content-left_bottom {
+    max-width: 550px;
+}
+
+.create-bar__container_bottom {
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.create-bar__content-right_bottom {
+    margin-left: -50px;
+    width: 50%;
+}
+
+.create-bar__subtitle_bottom {
+    max-width: 550px;
+    margin: auto;
+}
+
+.create-bar__title_bottom {
+    margin-bottom: 40px;
+}

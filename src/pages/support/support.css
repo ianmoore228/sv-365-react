@@ -1,0 +1,8 @@
+.support {
+    padding-top: 60px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(180deg, rgba(27, 55, 152, 1) 0%, rgba(0, 13, 29, 1) 17%, rgba(0, 13, 29, 1) 75%, rgba(152, 27, 126, 1) 91%);
+}

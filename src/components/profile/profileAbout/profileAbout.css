@@ -1,0 +1,164 @@
+/* .main {
+    background: linear-gradient(180deg, rgba(27, 55, 152, 1) 0%, rgba(0, 13, 29, 1) 17%, rgba(0, 13, 29, 1) 75%, rgba(152, 27, 126, 1) 91%);
+} */
+
+.profile-about__wrapper {
+    padding: 80px 0 0 0;
+    /* background: rgb(27, 55, 152); */
+
+    display: flex;
+}
+
+.profile-about__content-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-about__content-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-about__title {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+
+.profile-about__subtitle {
+    font-size: 22px;
+    font-weight: 400;
+    color: #e1e1e1;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.profile-about__button {
+    background: linear-gradient(90deg, #5E7FF7 3.79%, rgba(14, 39, 128, 0.79) 100%);
+    padding: 20px 60px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 300;
+    text-decoration: none;
+    display: block;
+    max-width: 250px;
+    margin-bottom: 25px;
+    border-radius: 55px;
+    text-align: center;
+}
+
+.profile-about__tariff-card {
+    border-radius: 40px;
+    display: flex;
+    /* width: 200px; */
+    height: 500px;
+    background: linear-gradient(180deg, rgba(1, 47, 112, 0.9) 0%, rgba(14, 103, 227, 0.666) 100%);
+    align-items: center;
+    justify-content: space-between;
+    border: 7px solid #ffffff;
+    flex-direction: column;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.profile-about__tariff-text {
+    font-size: 24px;
+    margin: 80px 0 50px 0;
+}
+
+.profile-about-time__timer-items {
+    display: flex;
+}
+
+.profile-about__timer-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.profile-about__timer-item:not(:last-child)::after {
+    content: ':';
+    position: relative;
+    right: -12px;
+}
+
+.profile-about__timer-item {
+    min-width: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 48px;
+}
+
+.profile-about__button-pay {
+    background: linear-gradient(90deg, #5E7FF7 3.79%, rgba(14, 39, 128, 0.79) 100%);
+    padding: 20px 60px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 300;
+    text-decoration: none;
+    display: block;
+    max-width: 370px;
+    margin-bottom: 25px;
+    border-radius: 55px;
+    text-align: center;
+}
+
+.profile-about__no-tariff-text {
+    color: #c3c6c9;
+    cursor: default;
+}
+
+.profile-about__tariff-description {
+    color: #c3c6c9;
+    pointer-events: none;
+}
+
+.profile-about__tariff-card-list {
+    max-width: 300px;
+    text-align: center;
+    list-style-position: inside;
+}
+
+.profile-about__tariff-card-item {
+    font-size: 18px;
+}
+
+.profile-about__tariff-card-title {
+    font-size: 48px;
+    text-align: center;
+    font-weight: 700;
+    max-width: 390px;
+}
+
+.profile-about__tariff-card-price {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.profile-about__tariff-card_none {
+    height: auto;
+}
+
+.profile-about-time__timer-item {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.profile-about__timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-about__timer-loading {
+    margin-top: 30px;
+}

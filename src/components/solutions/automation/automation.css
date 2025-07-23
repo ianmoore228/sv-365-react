@@ -1,0 +1,75 @@
+.automation__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.automation__text {
+    font-size: 22px;
+    text-align: center;
+    max-width: 443px;
+    margin-top: 40px;
+}
+
+.automation__image {
+    width: 60%;
+}
+
+.automation__card-item {
+    list-style: none;
+}
+
+.automation__container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 76px;
+}
+
+.automation__title_bottom {
+    margin-top: 30px;
+}
+
+.automation__card {
+    background: rgba(36, 46, 57, 0.50);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    padding: 33px 20px 33px 33px;
+    border-radius: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.automation__card_right {
+    background: linear-gradient(180deg, rgba(28, 70, 220, 0.70) 0%, rgba(32, 52, 104, 0.70) 100%);
+}
+.automation__card-button {
+    border-radius: 25px;
+    background: #1A222C;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    padding: 7px 100px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    max-width: 420px;
+}
+
+.automation__card-title {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: bold;
+    align-self: center;
+}
+
+.automation__card-item {
+    font-size: 25px;
+    align-self: flex-start;
+}
+
+.automation__card-image {
+    margin: auto;
+    margin-bottom: 10px;
+}

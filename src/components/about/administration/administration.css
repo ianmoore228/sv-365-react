@@ -1,0 +1,146 @@
+.administration__wrapper {
+    background: linear-gradient(180deg, rgba(93, 127, 245, 0.48) 0%, rgba(14, 37, 112, 0) 100%);
+    border-radius: 100px 100px 0 0;
+    margin-top: 100px;
+    margin: 0 50px;
+}
+
+.administration__content {
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+    padding: 20px 0
+}
+
+.administration__title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    padding: 29px 0;
+}
+
+.administration__image_top {
+    width: 100%;
+}
+
+.administration__container-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -500px;
+    padding-bottom: 100px;
+}
+
+.administration__image_bottom {
+    width: 50%;
+
+}
+
+.administration__text-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.administration__phone {
+    color: #ffffff;
+}
+
+.administration__text-content_top {
+    background: linear-gradient(180deg, rgba(93, 127, 245, 0.48) 0%, rgba(14, 37, 112, 0) 100%);
+    box-shadow: 11px 0px 17px 0px #00000040;
+    border-radius: 50px;
+    padding: 45px 20px;
+    padding-bottom: 0;
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.administration__text {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    margin: 0;
+}
+
+.administration__button {
+    background: linear-gradient(90deg, #5E7FF7 0%, #0C2067 100%);
+    box-shadow: 0px 4px 4px 0px #00000040;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    display: block;
+    margin-top: 30px;
+    position: relative;
+    top: 30px;
+    cursor: pointer;
+    max-width: 302px;
+}
+
+.administration__phone {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-top: 90px;
+    margin-bottom: 15px;
+    display: block;
+    text-decoration: none;
+}
+
+.administration__email,
+.administration__address {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 20px 0 15px 0;
+}
+
+.administration__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.administration__container-bottom {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.administration__legal {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.36px;
+    margin-bottom: 16px
+}
+
+.administration__made-by {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20.36px;
+    margin: 12px 0;
+}
+
+.administration__button-delete {
+    background: linear-gradient(180deg, rgba(93, 127, 245, 0.48) 0%, rgba(14, 37, 112, 0) 100%);
+    border: none;
+    color: #ffffff;
+   padding: 10px;
+   border-radius: 15px;
+   font-weight: 600;
+}

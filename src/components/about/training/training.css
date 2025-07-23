@@ -1,0 +1,77 @@
+.training__background {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.training__wrapper {
+    margin-top: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+.training__container {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.training__title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 39px 0;
+}
+
+.training__item {
+    width: 60%;
+    border-radius: 50px;
+    padding: 30px 60px;
+    box-sizing: border-box;
+    background: linear-gradient(270deg, rgba(19, 52, 159, 0.53) 16.65%, rgba(21, 40, 82, 0.52) 99.83%);
+}
+
+.training__item_text {
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 26.31px;
+    color: #F3E3EE;
+    margin: 21px 0;
+}
+
+.training__item_subtitle-additional {
+    font-size: 21px;
+}
+
+.training__item_img-first {
+    width: 75%;
+    align-self: flex-end;
+    margin-top: -200px;
+}
+
+.training__item-second {
+    align-self: flex-end;
+}
+
+
+.training__item_subtitle {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.training__container-bottom {
+    flex-direction: row;
+    align-items: center;
+    max-height: 700px;
+}
+
+.training__item_img-second {
+    position: relative;
+    left: -100px;
+    top: -40px;
+}

@@ -1,0 +1,152 @@
+checkbo.description__buttons {
+    display: flex;
+    flex-direction: column;
+    max-width: 230px;
+}
+
+.description__tab {
+    box-sizing: border-box;
+    color: #fff;
+    background: linear-gradient(180deg, #1F4CEE 0%, #000 100%);
+    padding-top: 30px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-radius: 26px;
+    height: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    position: relative;
+    width: 80%;
+
+}
+
+.description__tab:not(:first-child) {
+    margin-top: -100px;
+}
+
+.description__wrapper {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description__content {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.description__title {
+    margin-bottom: 29px;
+}
+
+.description__images {
+    max-width: 600px;
+    max-height: 700px;
+    padding-left: 40px;
+    margin-right: 40px;
+    width: 100%;
+}
+
+.description__image {
+    max-width: 600px;
+    max-height: 700px;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+}
+
+.description__right {
+    max-width: 270px;
+    width: 100%;
+}
+
+.description__text-content {
+    /* max-height: 0; */
+    overflow: hidden;
+}
+
+.description__card {
+    border-radius: 26px;
+    width: 100%;
+    min-height: 200px;
+    box-sizing: border-box;
+    padding: 20px;
+    color: #204CED;
+    background: linear-gradient(180deg, #FFFFFF 0%, #DFE6FF 100%);
+    margin-bottom: -100px;
+    box-sizing: border-box;
+    /* height: 100%; */
+    position: relative;
+    
+}
+
+.description__card-title {
+    color: #204CED;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+.active {
+    background: linear-gradient(rgb(255, 255, 255) 0%, rgb(0, 54, 254) 100%);
+    color: rgb(32, 76, 237);
+}
+
+.description__tab-text {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.description__text {
+    margin: 15px 0;
+    cursor: default;
+}
+
+.description__text-container hr {
+    background: #fff;
+    border: none;
+    outline: none;
+    height: 8px;
+    border-radius: 76px;
+    margin: 8px 0;
+}
+
+.description__sliders {
+    display: flex;
+    margin-top: 720px;
+}
+
+.description__slider {
+    background-color: #1F4CEE;
+    width: 99px;
+    height: 4px;
+    margin: 0 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.description__card-title-wrapper {
+    display: flex;
+}
+
+.active-slider {
+    background-color: white;
+}
+
+.animate-hight {
+    max-height: 900px;
+
+}
+

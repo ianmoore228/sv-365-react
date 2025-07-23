@@ -1,0 +1,9 @@
+.profile {
+    background: linear-gradient(180deg, rgba(27, 55, 152, 1) 0%, rgba(0, 13, 29, 1) 17%, rgba(0, 13, 29, 1) 75%, rgba(152, 27, 126, 1) 91%);
+}
+
+.profile__tariffs {
+    background: linear-gradient(180deg, rgba(134, 153, 255, 0.44) 0%, rgba(144, 55, 215, 0) 100%);
+    border-radius: 55px;
+    margin: 100px 100px 0 100px;
+}
