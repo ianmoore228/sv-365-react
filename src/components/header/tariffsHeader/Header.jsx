@@ -5,8 +5,12 @@ import img from "../../../assets/images/SV.svg";
 import user from "../../../assets/images/profile/user-icon.png";
 import logout from "../../../assets/images/profile/logout.svg";
 import { useLocation, useNavigate } from "react-router-dom";
+import { useDispatch } from 'react-redux';
+import { openModal } from '../../redux/modalSlice.jsx';
 
 const Header = () => {
+
+  const dispatch = useDispatch();
 
   const location = useLocation();
   const currentPath = location.pathname;
@@ -116,7 +120,7 @@ const Header = () => {
                 >
                   8 812 908-09-00
                 </a>
-                <button  className="button header__button">
+                <button onClick={() => dispatch(openModal())} className="button header__button">
                   Войти
                 </button>
               </>
