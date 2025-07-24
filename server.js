@@ -27,7 +27,6 @@ const io = new Server(server, {
   cors: {
     origin: ["http://localhost:3000", "http://192.168.8.147:5173", "http://10.0.0.74:5173"], 
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
-    allowedHeaders: ["my-custom-header"],
   },
   transports: ["websocket", "polling"],
 });
