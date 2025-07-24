@@ -5,7 +5,7 @@
 1. Выполнить команду:
 ```bash
 git clone https://github.com/ianmoore228/sv-365-react.git
-cd rocont-test
+cd sv-365-react
 ```
 2. Установить зависимости:
 ```bash
